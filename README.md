@@ -39,7 +39,8 @@ Kb = Kunci yang dibagikan B
 Fungction Explained :
 Fungction disini merupakan fungsi dengan nilai balik yang dimana Fungsi dengan nilai balik dapat mengembalikan suatu nilai ke dalam fungsi utama.
 
-  int Key_P; //mendeklarasikan dan menginisalisasikan bahwa Key_P adalah objek dengan input data integer.
+
+int Key_P; //mendeklarasikan dan menginisalisasikan bahwa Key_P adalah objek dengan input data integer.
 
       int KeyPrima(int n) //menempatkan nilai n pada objek KeyPrima yang dimana n akan mendapatkan input dari fungsi main.
         {
