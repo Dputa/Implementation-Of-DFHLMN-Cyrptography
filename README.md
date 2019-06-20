@@ -40,22 +40,20 @@ Fungction Explained :
 Fungction disini merupakan fungsi dengan nilai balik yang dimana Fungsi dengan nilai balik dapat mengembalikan suatu nilai ke dalam fungsi utama.
 
 
-int Key_P;                        //mendeklarasikan dan menginisalisasikan bahwa Key_P adalah objek dengan input data integer.
-  
+  int Key_P;                      //mendeklarasikan dan menginisalisasikan bahwa Key_P adalah objek dengan input data integer.
       int KeyPrima(int n)         //menempatkan nilai n pada objek KeyPrima yang dimana n akan mendapatkan input dari fungsi main.
         {
             int i;
 
-            for(i=2; i<=n/2; i++) //perulangan dalam menentukan bilangan prima atau tidaknya nilai yang diinputkan dari fungsi main.
+            for(i=2; i<=n/2; i++)//perulangan dalam menentukan bilangan prima atau tidaknya nilai yang diinputkan dari fungsi main.
            
             {
-                if(n%i==0)        //percabangan apa bila nilai n mod i adalah 0 maka hasilnya adalah bukan bilangan prima
+                if(n%i==0)       //percabangan apa bila nilai n mod i adalah 0 maka hasilnya adalah bukan bilangan prima
 
-                {Key_P++;}        // mengulangi variable Key_P ditambah 1 untuk.
+                {Key_P++;}       // mengulangi variable Key_P.
 
             } 
 
               return Key_P;
-        }   
+        }        
 
-            
