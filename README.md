@@ -6,8 +6,10 @@ Tittle   : Implementation-Of-Diffie Hellman-Cyrptograph-Key-Exchanger
 
 Kelompok 15 
 
-Member      : Nur Hikmatul Maulida       17.83.0070
+Member:
 
-            : Dia Putera Idiana Kusuma   17.83.0083
+Nur Hikmatul Maulida       17.83.0070
+
+Dia Putera Idiana Kusuma   17.83.0083
 
             
