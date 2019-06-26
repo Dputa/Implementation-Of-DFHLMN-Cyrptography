@@ -40,7 +40,7 @@ Fungction Explained :
 Fungction disini merupakan fungsi dengan nilai balik yang dimana Fungsi dengan nilai balik dapat mengembalikan suatu nilai ke dalam fungsi utama.
 
 
-int Key_P;                        //mendeklarasikan dan menginisalisasikan bahwa Key_P adalah objek dengan input data integer.
+  int Key_P;                        //mendeklarasikan dan menginisalisasikan bahwa Key_P adalah objek dengan input data integer.
   
       int KeyPrima(int n)         //menempatkan nilai n pada objek KeyPrima yang dimana n akan mendapatkan input dari fungsi main.
         {
@@ -58,4 +58,17 @@ int Key_P;                        //mendeklarasikan dan menginisalisasikan bahwa
               return Key_P;
         }   
 ===============================================================================
+Algorithm
+
+long long int power(long long int a, long long int b,  long long int N) 
+{  
+    if (b == 1) 
+        return a; 
+  
+    else
+        return (((long long int)pow(a, b)) % N); 
+} 
+
+===============================================================================
+
             
