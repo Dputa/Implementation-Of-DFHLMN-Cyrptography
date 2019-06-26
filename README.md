@@ -70,5 +70,59 @@ long long int power(long long int a, long long int b,  long long int N)
 } 
 
 ===============================================================================
+Main Function
+
+int main()
+{
+
+	int P, N, G, a, x, b, y, ka, kb;
+		
+		
+		    cout<<"Input Prime Key [P]: "; cin>>N;
+
+		          P = KeyPrima(N);
+
+		              if(P==0)
+			             	
+			             	{
+			             		cout<<"Key Succesfull"<<endl;
+			            	}
+
+		             else 
+
+			              {
+			              		cout<<"Key Failed"<<endl;
+			  			  }
+
+		
+
+
+    	cout<<"Input Public Key [G]: "; cin>>G; 
+
+ 		cout<<"Input Private Key a: "; cin>>a; 
+
+
+			 x = power(G, a, N);
+
+			  		cout << "Value Private Key a is : "<< x << endl;
+
+				    cout<<"Input Private Key b: "; cin>>b;
+
+			  y= power(G, b, N);
+
+					cout << "Value Private Key b is : "<< y << endl;
+			  
+			  ka = power(y, a, N); 
+					cout << "Secret Key a is : "<< ka << endl;
+
+			  kb = power(x, b, N); 
+				
+					cout << "Secret Key b is : "<< kb << endl;
+
+  return 0;  
+
+}
+
+
 
             
